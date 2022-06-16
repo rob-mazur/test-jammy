@@ -4,4 +4,4 @@ services:
   - elasticsearch
 script: 
   - sleep 10
-  - url -XGET 'http://localhost:9200'
+  - curl -XGET 'http://localhost:9200'
