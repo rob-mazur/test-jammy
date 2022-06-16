@@ -1,10 +1,8 @@
 dist: jammy
 group: dev
-language: python
-python:
-  - "3.8"
-  - "3.9"
-  - "3.10"
-  - "nightly"
+language: perl
+perl:
+  - "5.33.0"
+  - "5.34.0"
 script: 
-  - python --version
+  - perl -v
