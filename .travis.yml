@@ -3,5 +3,7 @@ group: dev
 services:
   - postgresql
 script: 
+  - systemctl status postgresql
+  - systemctl status postgresql@-main
   - psql -c 'SELECT version();' -U postgres
 
