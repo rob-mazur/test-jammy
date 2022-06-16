@@ -1,5 +1,7 @@
 dist: jammy
 group: dev
 language: erlang
+otp_release: 
+  - "4.2.1"
 script: 
   - echo "tesT"
