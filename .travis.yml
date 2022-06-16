@@ -1,7 +1,7 @@
 dist: jammy
 group: dev
 services:
-  - elasticsearch
+  - postgresql
 script: 
-  - sleep 10
-  - curl -XGET 'http://localhost:9200'
+  - postgres -V
+
