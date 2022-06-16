@@ -4,4 +4,4 @@ language: erlang
 otp_release: 
   - "24.2.1"
 script: 
-  - echo "tesT"
+  - erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell
