@@ -1,5 +1,7 @@
 dist: jammy
 group: dev
-language: node_js
+language: php
+php:
+  - "8.1"
 script: 
   - node --version
