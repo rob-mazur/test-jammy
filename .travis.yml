@@ -3,5 +3,5 @@ group: dev
 services:
   - postgresql
 script: 
-  - postgres -V
+  - psql -c 'SELECT version();' -U postgres
 
