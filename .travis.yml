@@ -1,6 +1,6 @@
 dist: jammy
 group: dev
 services:
-  - mysql
+  - mariadb
 script: 
-  - mysql -V
+  - mysqld --version
