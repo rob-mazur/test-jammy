@@ -1,7 +1,6 @@
 dist: jammy
 group: dev
-language: php
-php:
-  - "8.1"
+services:
+  - mysql
 script: 
-  - php --version
+  - mysql -V
