@@ -1,0 +1,8 @@
+dist: jammy
+group: dev
+language: ruby
+rvm:
+  - 3.0.4
+  - 3.1.2
+script: 
+  - ruby --version
