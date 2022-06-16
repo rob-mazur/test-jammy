@@ -1,5 +1,9 @@
 dist: jammy
 group: dev
-language: go
+language: node_js
+node_js:
+  - "14.18.1"
+  - "16.13.0"
+  - "17.1.0"
 script: 
-  -  go version
+  - node --version
