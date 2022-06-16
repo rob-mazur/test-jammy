@@ -1,11 +1,7 @@
 dist: jammy
 group: dev
-services:
-  - postgresql
+language: php
+php:
+  - "8.1"
 script: 
-  - ls /etc/postgresql
-  - systemctl status postgresql
-  - systemctl status postgresql@-main
-  - journalctl -u postgresql
-  - psql -c 'SELECT version();' -U postgres
-
+  - php --version
