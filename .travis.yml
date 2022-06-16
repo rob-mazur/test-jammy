@@ -1,8 +1,5 @@
 dist: jammy
 group: dev
 language: go
-go:
-  - "1.18"
-  - "1.17"
 script: 
   -  go version
