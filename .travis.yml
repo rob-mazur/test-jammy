@@ -1,6 +1,7 @@
 dist: jammy
 group: dev
 services:
-  - mariadb
+  - elasticsearch
 script: 
-  - mysqld --version
+  - sleep 10
+  - url -XGET 'http://localhost:9200'
