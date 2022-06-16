@@ -1,5 +1,9 @@
+dist: jammy
+group: dev
 language: php
 php:
   - "8.1"
+before_install:
+  - php --version
 script: 
   - php --version
