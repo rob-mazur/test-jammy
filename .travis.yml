@@ -1,5 +1,9 @@
 dist: jammy
 group: dev
-language: perl
+language: java
+jdk:
+  - "8"
+  - "11"
+  - "17"
 script: 
-  - perl --version
+  - java --version
