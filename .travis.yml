@@ -1,6 +1,5 @@
 dist: jammy
 group: dev
-language: java
 jdk:
   - "openjdk8"
   - "openjdk11"
