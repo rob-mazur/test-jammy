@@ -1,8 +1,8 @@
 dist: jammy
 group: dev
-language: perl
-perl:
-  - "5.33.0"
-  - "5.34.0"
+language: erlang
+otp_release:
+  - "24.2.1"
+  - "21.2"
 script: 
-  - perl -v
+  -  erl -eval 'erlang:display(erlang:system_info(otp_release)), halt().'  -noshell
