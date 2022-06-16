@@ -3,6 +3,7 @@ group: dev
 services:
   - postgresql
 script: 
+  - ls /etc/postgresql
   - systemctl status postgresql
   - systemctl status postgresql@-main
   - journalctl -u postgresql
