@@ -2,4 +2,4 @@ dist: jammy
 group: dev
 language: php
 script: 
-  - node --version
+  - php --version
