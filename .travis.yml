@@ -1,8 +1,10 @@
 dist: jammy
 group: dev
-language: ruby
-rvm:
-  - 3.0.4
-  - 3.1.2
+language: python
+python:
+  - "3.8"
+  - "3.9"
+  - "3.10"
+  - "nightly"
 script: 
-  - ruby --version
+  - python --version
