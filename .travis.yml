@@ -1,6 +1,5 @@
 dist: jammy
 group: dev
-services:
-  - postgresql 
+language: go
 script: 
-  - psql -c 'SELECT version();'
+  - go --version
