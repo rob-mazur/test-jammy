@@ -2,4 +2,4 @@ dist: jammy
 group: dev
 language: go
 script: 
-  - go --version
+  - go version
