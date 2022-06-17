@@ -2,6 +2,6 @@ dist: jammy
 group: dev
 language: go
 go:
-  - "1.18.2"
+  - "1.x"
 script: 
   - go version
