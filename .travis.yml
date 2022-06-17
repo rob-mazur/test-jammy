@@ -1,8 +1,8 @@
 dist: jammy
 group: dev
-language: go
-go:
-  - "1.x"
+jdk:
+  - "openjdk8"
+  - "openjdk11"
+  - "openjdk17"
 script: 
-  - go version
-  - env
+  - java -version
